@@ -94,6 +94,7 @@ img { max-width: 100%; height: auto; }
 table { border-collapse: collapse; width: 100%; font-size: 15px; }
 th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
 th { background: var(--bg-soft); }
+td:first-child, th:first-child { min-width: 5.6em; }   /* 좁은 화면에서 '주꾸미' 같은 짧은 이름이 꺾이지 않게 */
 .faq { margin-top: 36px; }
 .qa { border-top: 1px solid var(--line); padding: 14px 0 4px; }
 .qa h2, .qa h3 { font-size: 18px; margin: 0 0 6px; }
