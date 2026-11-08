@@ -1,2 +1,18 @@
 User-agent: *
-Disallow: /
+Allow: /
+
+# AI 검색·요약 수집기 허용(GEO)
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Yeti
+Allow: /
+
+Sitemap: https://moolgil.com/sitemap.xml
