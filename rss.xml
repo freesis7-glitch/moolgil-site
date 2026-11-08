@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>물길 — 물때·바다날씨·전자해도 바다낚시 앱</title><link>https://moolgil.com/</link><description>물길은 전국 1,606개 낚시 지점의 물때표와 조석, 파도·바람·수온, 국립해양조사원 전자해도를 한 앱에 모은 무료 바다낚시 앱입니다. 사용 설명서와 바다낚시 길잡이를 이곳에 정리합니다.</description><language>ko</language><atom:link href="https://moolgil.com/rss.xml" rel="self" type="application/rss+xml"/><item><title>물때란? 사리·조금 뜻과 서해 7물때·남해 8물때 차이</title><link>https://moolgil.com/fishing/multtae-basics/</link><guid isPermaLink="true">https://moolgil.com/fishing/multtae-basics/</guid><pubDate>Sun, 08 Nov 2026 09:00:00 +0900</pubDate><category>바다낚시 길잡이</category><description>물때는 달의 움직임에 따라 약 15일 주기로 바뀌는 조수의 단계입니다. 사리·조금·무시의 뜻과, 서해와 남해·동해·제주에서 물때를 세는 방식이 다른 이유를 음력 날짜별 표로 정리했습니다.</description><content:encoded><![CDATA[<h2 id="물때는-무엇인가요">물때는 무엇인가요</h2>
+<p>바닷물은 하루에 대개 두 번 차오르고(만조) 두 번 빠집니다(간조). 만조와 간조의 높이 차이를 <strong>조차</strong>라고 하는데, 조차는 날마다 달라집니다. 바닷물을 끌어당기는 달과 해의 위치가 날마다 바뀌기 때문입니다.</p>
+<p>음력 1일 무렵(그믐·초하루)과 15일 무렵(보름)에는 해와 달과 지구가 거의 한 줄에 놓여 조차가 커지고, 음력 8일과 23일 무렵(상현·하현)에는 조차가 작아집니다. 이렇게 약 15일마다 되풀이되는 흐름을 하루 단위로 나누어 부르는 이름이 <strong>물때</strong>입니다.</p>
+<h2 id="사리조금무시는-무슨-뜻인가요">사리·조금·무시는 무슨 뜻인가요</h2>
+<ul><li><strong>사리</strong>: 조차가 가장 큰 때입니다. 물이 많이 들고 많이 빠지며, 바닷물의 흐름(조류)도 셉니다. 서해에서는 7물, 남해·동해·제주에서는 8물 무렵입니다.</li><li><strong>조금</strong>: 조차가 가장 작은 때입니다. 물이 적게 오르내리고 조류도 약합니다. 음력 8일과 23일 무렵입니다.</li><li><strong>무시</strong>: 서해식에서 조금 다음 날을 부르는 이름입니다. 물의 움직임이 가장 적은 무렵입니다. 남해·동해·제주식에는 무시가 없고, 같은 날을 1물이라고 부릅니다.</li></ul>
+<aside class="note"><p>실제로 조차가 가장 큰 날은 그믐·보름 당일보다 하루 이틀 늦게 오는 경우가 많고, 가장 작은 날도 조금보다 하루 이틀 늦습니다. 정확한 높이와 시각은 그날의 조석 예보로 확인하는 것이 좋습니다.</p></aside>
+<h2 id="서해-7물때식과-남해동해제주-8물때식">서해 7물때식과 남해·동해·제주 8물때식</h2>
+<p>물때는 지역마다 세는 방식이 다릅니다. 같은 음력 날짜라도 서해와 남해·동해·제주의 물때 번호가 다르게 불립니다.</p>
+<ul><li><strong>서해(7물때식)</strong>: 1물부터 13물, 조금, 무시까지 15단계입니다. 음력 1일이 7물입니다.</li><li><strong>남해·동해·제주(8물때식)</strong>: 1물부터 14물, 조금까지 15단계입니다. 무시가 없고 14물이 있습니다. 음력 1일이 8물입니다.</li></ul>
+<p>두 방식 모두 음력 8일과 23일은 조금으로 같고, 나머지 날은 8물때식 번호가 7물때식보다 하나 큽니다.</p>
+<div class="table-wrap"><table><thead><tr><th>음력 날짜</th><th>서해 (7물때식)</th><th>남해·동해·제주 (8물때식)</th></tr></thead><tbody><tr><td>1일, 16일</td><td>7물</td><td>8물</td></tr><tr><td>2일, 17일</td><td>8물</td><td>9물</td></tr><tr><td>3일, 18일</td><td>9물</td><td>10물</td></tr><tr><td>4일, 19일</td><td>10물</td><td>11물</td></tr><tr><td>5일, 20일</td><td>11물</td><td>12물</td></tr><tr><td>6일, 21일</td><td>12물</td><td>13물</td></tr><tr><td>7일, 22일</td><td>13물</td><td>14물</td></tr><tr><td>8일, 23일</td><td>조금</td><td>조금</td></tr><tr><td>9일, 24일</td><td>무시</td><td>1물</td></tr><tr><td>10일, 25일</td><td>1물</td><td>2물</td></tr><tr><td>11일, 26일</td><td>2물</td><td>3물</td></tr><tr><td>12일, 27일</td><td>3물</td><td>4물</td></tr><tr><td>13일, 28일</td><td>4물</td><td>5물</td></tr><tr><td>14일, 29일</td><td>5물</td><td>6물</td></tr><tr><td>15일, 30일</td><td>6물</td><td>7물</td></tr></tbody></table></div>
+<p>전라남도 서남쪽처럼 두 방식이 만나는 곳은 경계가 촘촘합니다. 물길은 해남 땅끝과 진도·목포는 서해식으로, 완도군의 섬들은 남해식으로 셉니다.</p>
+<h2 id="물때를-낚시에-어떻게-쓰나요">물때를 낚시에 어떻게 쓰나요</h2>
+<p>물때는 그날 물살이 얼마나 셀지 가늠하는 기준입니다. 물살이 센 사리 무렵과 약한 조금 무렵은 포인트와 채비 무게를 고르는 방법이 달라집니다. 어느 물때가 좋은지는 어종과 장소, 낚시 방법에 따라 다르므로, 물때 번호만 보지 말고 <strong>만조·간조 시각</strong>과 <strong>물흐름</strong>을 함께 보세요.</p>
+<h2 id="물길에서-물때-보기">물길에서 물때 보기</h2>
+<p>물길은 전국 1,606개 낚시 지점마다 그 지점이 속한 지역의 방식으로 물때를 셉니다. 지점을 고르면 오늘 물때와 만조·간조 시각, 하루 조석 그래프가 함께 나옵니다. 보는 방법은 <a href="/guide/today-tide/">물길로 오늘 물때 보는 법</a>에 정리했습니다.</p>]]></content:encoded></item><item><title>출조 전 바다날씨 확인하는 법 (파고·풍속·돌풍·시정)</title><link>https://moolgil.com/guide/sea-weather-check/</link><guid isPermaLink="true">https://moolgil.com/guide/sea-weather-check/</guid><pubDate>Sun, 08 Nov 2026 09:00:00 +0900</pubDate><category>사용 설명서</category><description>물길 날씨 탭의 3시간 단위 해상 예보로 파고, 풍속, 돌풍, 시정, 강수확률을 확인하는 방법과 &#x27;환경&#x27; 표시(좋음·보통·주의)의 기준을 정리했습니다.</description><content:encoded><![CDATA[<h2 id="날씨-탭-열기">날씨 탭 열기</h2>
+<p>위쪽의 '날씨' 탭을 누르면 고른 지점의 해상 예보가 나옵니다.</p>
+<figure><img src="/img/guide/weather-table.webp" alt="물길 날씨 탭" loading="lazy" decoding="async" width="720" height="1258"><figcaption>날씨 탭의 3시간 단위 해상 예보 (예시 지점: 통영)</figcaption></figure>
+<ul><li><strong>맨 위</strong>: 지점 이름과 지금의 파고·풍속·시정</li><li><strong>3시간 단위 해상 예보</strong>: 3시간 간격으로 7일치를 보여 줍니다. 표를 오른쪽으로 밀면 다음 날로 이어집니다.</li></ul>
+<h2 id="표의-항목">표의 항목</h2>
+<div class="table-wrap"><table><thead><tr><th>항목</th><th>뜻</th></tr></thead><tbody><tr><td>환경</td><td>풍속·파고·강수확률·시정으로 정한 좋음·보통·주의 표시</td></tr><tr><td>기온</td><td>공기 온도</td></tr><tr><td>수온</td><td>바닷물 온도</td></tr><tr><td>파고</td><td>파도 높이(m)</td></tr><tr><td>기압</td><td>기압(hPa). 1013보다 낮으면 저기압, 높으면 고기압 쪽입니다</td></tr><tr><td>가시거리</td><td>바다 위에서 멀리 보이는 거리(km)</td></tr><tr><td>풍속</td><td>평균 바람 세기(m/s)</td></tr><tr><td>돌풍</td><td>순간적으로 세게 부는 바람(m/s)</td></tr><tr><td>풍향</td><td>바람이 불어오는 방향</td></tr><tr><td>파도주기</td><td>파도와 파도 사이의 시간(초)</td></tr><tr><td>강수확률·강수량</td><td>비가 올 확률(%)과 양(mm/h)</td></tr></tbody></table></div>
+<h2 id="환경-표시-기준">'환경' 표시 기준</h2>
+<div class="table-wrap"><table><thead><tr><th>표시</th><th>기준 (하나라도 해당하면)</th></tr></thead><tbody><tr><td>주의</td><td>풍속 10m/s 이상, 파고 1.5m 이상, 강수확률 70% 이상, 시정 3km 미만</td></tr><tr><td>보통</td><td>풍속 6m/s 이상, 파고 0.9m 이상, 강수확률 40% 이상, 시정 8km 미만</td></tr><tr><td>좋음</td><td>풍속·파고·강수확률 자료가 모두 있고 위 기준보다 낮을 때</td></tr><tr><td>- (표시 없음)</td><td>판단에 필요한 자료가 부족할 때</td></tr></tbody></table></div>
+<aside class="note"><p>'환경'은 물길이 정한 참고 기준입니다. 출조 전에는 기상 특보와 해양경찰 등 관계 기관의 출항 통제를 반드시 먼저 확인하세요.</p></aside>
+<h2 id="출조-전-확인-순서">출조 전 확인 순서</h2>
+<ol><li>날씨 탭에서 출조할 시간대의 풍속, 돌풍, 파고를 봅니다.</li><li>'주의'가 보이면 일정이나 장소를 다시 생각합니다.</li><li>물때 탭에서 그날의 만조·간조 시각을 함께 봅니다. 보는 방법은 <a href="/guide/today-tide/">물길로 오늘 물때 보는 법</a>에 있습니다.</li><li>기상청 해상 특보와 관계 기관의 안내를 마지막으로 확인합니다.</li></ol>]]></content:encoded></item><item><title>물길로 오늘 물때 보는 법 (만조·간조·현재 물높이)</title><link>https://moolgil.com/guide/today-tide/</link><guid isPermaLink="true">https://moolgil.com/guide/today-tide/</guid><pubDate>Sun, 08 Nov 2026 09:00:00 +0900</pubDate><category>사용 설명서</category><description>물길 앱에서 오늘 물때와 만조·간조 시각, 현재 물높이를 확인하는 방법을 실제 화면으로 설명합니다. 지점 바꾸기, 즐겨찾기, 날짜별 물때 보기도 함께 정리했습니다.</description><content:encoded><![CDATA[<h2 id="1-홈-화면에서-바로-보기">1. 홈 화면에서 바로 보기</h2>
+<p>물길을 열면 홈 화면 맨 위에 지금 고른 지점과 '물때 정보'가 나옵니다.</p>
+<figure><img src="/img/guide/home-tide-card.webp" alt="물길 홈 화면의 물때 정보" loading="lazy" decoding="async" width="720" height="825"><figcaption>홈 화면의 물때 정보 (예시 지점: 통영)</figcaption></figure>
+<ul><li><strong>지점 카드</strong>: 지금 고른 지점 이름(예: 통영)과 현재 위치에서의 거리</li><li><strong>오늘 물때</strong>: 예시 화면의 '6물'처럼 오늘의 물때 번호</li><li><strong>현재 물높이</strong>와 다음 만조·간조까지 남은 시간</li><li><strong>오늘의 간조·만조 시각과 물높이(cm)</strong></li></ul>
+<p>시각 옆 괄호 안 숫자는 바로 앞 만조·간조와 비교한 물높이 차이입니다. 예시 화면에서 08:12 만조 옆의 (+209)는 앞선 간조보다 물이 209cm 높아진다는 뜻입니다.</p>
+<h2 id="2-물때-탭에서-자세히-보기">2. 물때 탭에서 자세히 보기</h2>
+<p>위쪽의 '물때' 탭을 누르면 오늘의 물때를 자세히 볼 수 있습니다.</p>
+<figure><img src="/img/guide/tide-tab.webp" alt="물길 물때 탭" loading="lazy" decoding="async" width="720" height="1265"><figcaption>물때 탭: 현재 물높이와 오늘의 물때 그래프</figcaption></figure>
+<ul><li><strong>물때와 물세기</strong>: 오늘 물때와 '물세기'(그날 물의 세기를 0~100%로 나타낸 값)</li><li><strong>일출·일몰</strong> 시각</li><li><strong>현재 물높이</strong>와 지금 물이 들어오는 중(상승)인지 빠지는 중(하강)인지</li><li><strong>오늘의 물때 그래프</strong>: 하루 동안의 물높이 곡선 위에 만조·간조 시각과 높이, 지금 시각이 표시됩니다</li><li><strong>바다 상태</strong>: 풍속, 파고, 풍향, 기압과 다음 만조·간조까지 남은 시간</li></ul>
+<p>물세기는 서해식 9물(남해·동해·제주식 10물) 무렵이 100%로 가장 세고, 서해식 1물(남해·동해·제주식 2물)이 가장 약해 '최소'로 표시됩니다.</p>
+<h3 id="다른-날짜-보기">다른 날짜 보기</h3>
+<ul><li>날짜 양옆을 눌러 하루씩 앞뒤로 옮깁니다.</li><li>날짜 아래 '달력에서 날짜 선택'을 눌러 원하는 날을 고릅니다.</li><li>위쪽의 <strong>일간·월간·달력</strong>을 바꾸면 한 달 물때를 한눈에 봅니다.</li><li>'지도에서 보기'를 누르면 전국 지점의 물때를 지도에서 봅니다.</li></ul>
+<h2 id="3-지점-바꾸기와-즐겨찾기">3. 지점 바꾸기와 즐겨찾기</h2>
+<p>물때 탭 왼쪽 위의 지점 이름(예: 통영)을 누르면 '지점 선택' 화면이 열립니다.</p>
+<figure><img src="/img/guide/pick-location.webp" alt="물길 지점 선택 화면" loading="lazy" decoding="async" width="720" height="1225"><figcaption>지점 선택: 검색, 해역별 보기, 즐겨찾기</figcaption></figure>
+<ul><li><strong>지점명 검색</strong>: 인천, 거제, 제주처럼 이름으로 찾습니다.</li><li><strong>해역별 보기</strong>: 전체·서해·남해·동해·제주로 나눠 봅니다.</li><li><strong>지도에서 선택</strong>: 지도에서 가까운 지점을 고릅니다.</li><li><strong>즐겨찾기</strong>: 지점 옆 별표를 누르면 위쪽 즐겨찾기 칸에 들어가고, 다음부터 바로 고를 수 있습니다. 9곳까지 넣을 수 있습니다.</li></ul>
+<h2 id="물때-번호가-다른-앱과-다를-때">물때 번호가 다른 앱과 다를 때</h2>
+<p>물때는 서해와 남해·동해·제주에서 세는 방식이 달라 같은 날도 번호가 하나 다를 수 있습니다. 물길은 지점이 속한 지역의 방식으로 셉니다. 자세한 내용은 <a href="/fishing/multtae-basics/">물때란? 사리·조금 뜻과 서해 7물때·남해 8물때 차이</a>에 정리했습니다.</p>]]></content:encoded></item><item><title>물길 공식 블로그를 열었습니다</title><link>https://moolgil.com/news/blog-open/</link><guid isPermaLink="true">https://moolgil.com/news/blog-open/</guid><pubDate>Sun, 08 Nov 2026 09:00:00 +0900</pubDate><category>소식</category><description>물길 앱의 사용 설명서와 바다낚시 길잡이를 한곳에 모은 공식 블로그를 열었습니다. 앞으로 기능 안내와 업데이트 소식을 이곳에 올립니다.</description><content:encoded><![CDATA[<p>물길 공식 블로그를 열었습니다. 물길은 물때표와 바다날씨, 국립해양조사원 전자해도를 한 앱에 모은 무료 바다낚시 앱입니다.</p>
+<h2 id="이곳에-올라오는-글">이곳에 올라오는 글</h2>
+<ul><li><strong>사용 설명서</strong>: 물길의 기능을 실제 앱 화면과 함께 차례대로 설명합니다.</li><li><strong>바다낚시 길잡이</strong>: 물때, 바다날씨, 안전처럼 출조 전에 알아 두면 좋은 기본 지식을 정리합니다.</li><li><strong>소식</strong>: 업데이트와 공지를 알립니다.</li></ul>
+<p>궁금한 점은 <a href="/faq/">자주 묻는 질문</a>을 먼저 보시고, 그래도 풀리지 않으면 아래 이메일로 알려 주세요.</p>]]></content:encoded></item></channel></rss>
