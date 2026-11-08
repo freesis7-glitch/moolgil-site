@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>물길 해도에서 낚시 포인트 저장하고 항적 기록하는 법 | 물길</title>
+<meta name="description" content="물길 앱 해도에서 낚시 포인트를 마커로 저장하는 두 가지 방법(십자선 마커, 현위치마커), 마커 이름 바꾸기·공유·삭제, 항적 기록과 저장, 항적관리를 실제 화면으로 정리했습니다.">
+<link rel="canonical" href="https://moolgil.com/guide/save-point-track/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="물길">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="물길 해도에서 낚시 포인트 저장하고 항적 기록하는 법">
+<meta property="og:description" content="물길 앱 해도에서 낚시 포인트를 마커로 저장하는 두 가지 방법(십자선 마커, 현위치마커), 마커 이름 바꾸기·공유·삭제, 항적 기록과 저장, 항적관리를 실제 화면으로 정리했습니다.">
+<meta property="og:url" content="https://moolgil.com/guide/save-point-track/">
+<meta property="og:image" content="https://moolgil.com/og/guide-save-point-track-39ed177727.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:published_time" content="2026-11-08">
+<meta property="article:modified_time" content="2026-11-08">
+<meta name="theme-color" content="#061321">
+<meta name="naver-site-verification" content="fc603bb5ecd979aaef17647a697d5b415578c2f9">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="물길" href="https://moolgil.com/rss.xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="/css/site.css">
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://moolgil.com/#org",
+   "name": "물길",
+   "url": "https://moolgil.com/",
+   "logo": "https://moolgil.com/img/icon-512.png",
+   "email": "freesis7@gmail.com",
+   "sameAs": [
+    "https://play.google.com/store/apps/details?id=com.mulnale.app"
+   ]
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://moolgil.com/#site",
+   "name": "물길",
+   "url": "https://moolgil.com/",
+   "inLanguage": "ko-KR",
+   "publisher": {
+    "@id": "https://moolgil.com/#org"
+   }
+  },
+  {
+   "@type": "Article",
+   "headline": "물길 해도에서 낚시 포인트 저장하고 항적 기록하는 법",
+   "description": "물길 앱 해도에서 낚시 포인트를 마커로 저장하는 두 가지 방법(십자선 마커, 현위치마커), 마커 이름 바꾸기·공유·삭제, 항적 기록과 저장, 항적관리를 실제 화면으로 정리했습니다.",
+   "image": "https://moolgil.com/og/guide-save-point-track-39ed177727.jpg",
+   "datePublished": "2026-11-08",
+   "dateModified": "2026-11-08",
+   "inLanguage": "ko-KR",
+   "author": {
+    "@id": "https://moolgil.com/#org"
+   },
+   "publisher": {
+    "@id": "https://moolgil.com/#org"
+   },
+   "mainEntityOfPage": "https://moolgil.com/guide/save-point-track/"
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "홈",
+     "item": "https://moolgil.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "사용 설명서",
+     "item": "https://moolgil.com/guide/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "물길 해도에서 낚시 포인트 저장하고 항적 기록하는 법",
+     "item": "https://moolgil.com/guide/save-point-track/"
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "로그인하지 않아도 포인트를 저장할 수 있나요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "네. 마커는 로그인하지 않아도 찍히지만 그 휴대폰 안에만 저장되어 앱을 지우면 함께 사라집니다. 로그인하면 계정에 저장되어 앱을 다시 설치하거나 다른 휴대폰에서 같은 계정으로 로그인해도 다시 나타납니다. 항적 저장과 포인트 공유는 로그인해야 쓸 수 있습니다."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "화면을 꺼도 항적이 기록되나요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "네. 기록 중에는 알림창에 '물길 항적 기록 중'이 표시되고, 화면이 꺼져도 기록이 이어집니다. 다만 최근 앱 목록에서 밀어서 앱을 완전히 종료하면 기록이 멈춥니다."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "저장한 포인트를 다른 사람에게 보낼 수 있나요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "마커를 누르고 '공유'를 누르면 6자리 공유 코드와 링크가 만들어집니다. 받는 사람이 링크를 누르거나 해도 메뉴의 '코드 받기'에 코드를 넣으면 그 포인트가 받는 사람의 해도에 추가됩니다. 공유는 로그인 후 쓸 수 있습니다."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "마커 종류는 어떤 기준으로 고르나요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "좋음, 보통, 주의, 특별, 닻 다섯 가지 중에서 고릅니다. 정해진 규칙은 없으니 입질이 좋았던 곳은 좋음, 암초나 그물이 있는 곳은 주의, 닻을 내린 자리는 닻처럼 자기 기준으로 나눠 쓰면 됩니다."
+     }
+    }
+   ]
+  }
+ ]
+}</script>
+</head>
+<body>
+<a class="skip" href="#main">본문 바로가기</a>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="/"><img src="/img/logo-white.png" alt="물길" width="169" height="96"></a>
+    <nav class="nav" aria-label="주 메뉴">
+      <a href="/about/">물길 소개</a><a href="/guide/" aria-current="page">사용 설명서</a><a href="/fishing/">바다낚시 길잡이</a><a href="/faq/">자주 묻는 질문</a><a href="/news/">소식</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<article class="wrap article">
+  <nav class="crumbs" aria-label="현재 위치"><a href="/">홈</a> / <a href="/guide/">사용 설명서</a></nav>
+  <h1>물길 해도에서 낚시 포인트 저장하고 항적 기록하는 법</h1>
+  <p class="meta">2026년 11월 8일 작성 · 읽는 데 5분</p>
+  
+  <div class="answer"><strong>한 줄 답</strong><p>해도 탭 오른쪽 위 &#39;메뉴&#39;에서 &#39;마커&#39;를 누르면 지도 가운데 십자선 자리를, &#39;현위치마커&#39;를 누르면 지금 있는 자리를 포인트로 저장합니다. 지나온 뱃길은 오른쪽 아래 &#39;항적기록&#39;을 눌러 기록하고, 다시 눌러 이름을 붙여 저장합니다.</p></div>
+  
+  
+  <nav class="toc" aria-label="차례"><strong>차례</strong><ul><li><a href="#해도-메뉴-열기">해도 메뉴 열기</a></li><li><a href="#1-지도에서-고른-자리-저장하기-마커">1. 지도에서 고른 자리 저장하기 (마커)</a></li><li><a href="#2-지금-있는-자리-바로-저장하기-현위치마커">2. 지금 있는 자리 바로 저장하기 (현위치마커)</a></li><li><a href="#3-저장한-포인트-보기이름-바꾸기공유삭제">3. 저장한 포인트 보기·이름 바꾸기·공유·삭제</a></li><li><a href="#4-항적-기록하기">4. 항적 기록하기</a></li><li><a href="#5-항적-저장하기">5. 항적 저장하기</a></li><li><a href="#6-항적관리에서-저장한-항적-보기">6. 항적관리에서 저장한 항적 보기</a></li><li><a href="#로그인하면-달라지는-점">로그인하면 달라지는 점</a></li></ul></nav>
+  
+  <div class="prose">
+<p>물길 해도에서는 낚시 포인트를 마커로 저장하고, 배로 지나온 길을 항적으로 기록할 수 있습니다. 이 글은 물길 휴대폰 앱의 '해도' 탭을 기준으로 설명합니다.</p>
+<h2 id="해도-메뉴-열기">해도 메뉴 열기</h2>
+<p>해도 탭 오른쪽 위의 '메뉴'를 누르면 '해도 메뉴'가 열립니다.</p>
+<figure><img src="/img/guide/chart/chart-menu.webp" alt="물길 해도 메뉴" loading="lazy" decoding="async" width="720" height="909"><figcaption>해도 메뉴 (예시 위치: 통영 연대도·학림도 앞바다)</figcaption></figure>
+<p>포인트 저장에 쓰는 단추는 다음과 같습니다.</p>
+<ul><li><strong>마커</strong>: 지도 가운데 십자선 자리를 포인트로 저장합니다.</li><li><strong>현위치마커</strong>: 지금 내가 있는 자리를 바로 저장합니다.</li><li><strong>현위치메모</strong>: 지금 자리의 날씨·물때와 함께 조황 메모를 남깁니다. 로그인해야 쓸 수 있습니다.</li><li><strong>마커삭제·영역삭제</strong>: 저장한 마커를 지웁니다.</li><li><strong>코드 받기</strong>: 다른 사람이 공유한 포인트를 코드로 받습니다.</li></ul>
+<h2 id="1-지도에서-고른-자리-저장하기-마커">1. 지도에서 고른 자리 저장하기 (마커)</h2>
+<p>배를 타기 전에 해도를 보며 가 볼 곳을 미리 찍어 둘 때 쓰는 방법입니다.</p>
+<ol><li>해도 메뉴에서 <strong>마커</strong>를 누릅니다. 지도 가운데에 빨간 십자선이 나옵니다.</li><li>지도를 손가락으로 움직여 십자선을 저장할 자리에 맞춥니다. 해도의 수심 숫자를 보며 위치를 고르면 됩니다.</li><li>화면 아래의 <strong>확인</strong>을 누릅니다.</li></ol>
+<figure><img src="/img/guide/chart/chart-marker-cross.webp" alt="물길 해도 마커 십자선" loading="lazy" decoding="async" width="720" height="1023"><figcaption>지도를 움직여 가운데 십자선을 저장할 자리에 맞춥니다</figcaption></figure>
+<ol start="4"><li>'마커 종류 선택' 창에서 필요하면 이름을 넣고, 마커 종류를 누르면 바로 저장됩니다.</li></ol>
+<figure><img src="/img/guide/chart/chart-marker-picker.webp" alt="물길 마커 종류 선택 창" loading="lazy" decoding="async" width="720" height="433"><figcaption>이름(선택)을 넣고 좋음·보통·주의·특별·닻 중 하나를 누릅니다</figcaption></figure>
+<p>마커 종류는 <strong>좋음, 보통, 주의, 특별, 닻</strong> 다섯 가지입니다. 저장하면 십자선이 다시 나와서 다음 자리를 이어서 찍을 수 있습니다. 다 찍었으면 화면 아래 <strong>취소</strong>를 누르거나 해도 메뉴의 <strong>마커 종료</strong>를 눌러 끝냅니다.</p>
+<h2 id="2-지금-있는-자리-바로-저장하기-현위치마커">2. 지금 있는 자리 바로 저장하기 (현위치마커)</h2>
+<p>입질을 받은 자리처럼 지금 배가 있는 곳을 바로 남길 때 쓰는 방법입니다. 휴대폰 위치(GPS)를 쓰므로 물길 앱에 위치 권한을 허용해 두어야 합니다.</p>
+<ol><li>해도 메뉴에서 <strong>현위치마커</strong>를 누릅니다.</li><li>'현위치 마커' 창에서 필요하면 이름을 넣고 <strong>저장</strong>을 누릅니다.</li></ol>
+<figure><img src="/img/guide/chart/chart-gps-marker.webp" alt="물길 현위치 마커 이름 입력 창" loading="lazy" decoding="async" width="720" height="387"><figcaption>이름 없이 저장하면 날짜·시각이 자동으로 붙습니다</figcaption></figure>
+<p>이름을 비워 두고 저장하면 '11/8 18:44 현위치'처럼 날짜와 시각이 이름으로 붙습니다. 저장되면 '현위치에 마커가 저장되었습니다'라는 안내가 잠깐 뜹니다.</p>
+<figure><img src="/img/guide/chart/chart-gps-saved.webp" alt="물길 현위치 마커 저장 완료" loading="lazy" decoding="async" width="720" height="627"><figcaption>현위치 마커 저장 완료 안내</figcaption></figure>
+<h2 id="3-저장한-포인트-보기이름-바꾸기공유삭제">3. 저장한 포인트 보기·이름 바꾸기·공유·삭제</h2>
+<p>해도에서 마커를 누르면 정보창이 열립니다.</p>
+<figure><img src="/img/guide/chart/chart-marker-popup.webp" alt="물길 마커 정보창" loading="lazy" decoding="async" width="720" height="387"><figcaption>마커 정보창: 종류와 좌표, 공유·수정·삭제, 상세보기</figcaption></figure>
+<ul><li>맨 위에 마커 이름과 종류, <strong>좌표(위도·경도)</strong>가 나옵니다.</li><li><strong>수정</strong>: 마커 이름을 바꿉니다.</li><li><strong>공유</strong>: 6자리 공유 코드와 링크를 만들어 카카오톡 등으로 보낼 수 있습니다. 로그인해야 쓸 수 있습니다.</li><li><strong>삭제</strong>: 그 마커를 지웁니다. 확인 없이 바로 지워지니 주의하세요.</li><li><strong>상세보기</strong>: 마커를 찍은 날짜·시각과 좌표를 보여 줍니다.</li></ul>
+<h3 id="공유받은-포인트-넣기">공유받은 포인트 넣기</h3>
+<p>공유받은 링크를 누르거나, 해도 메뉴의 <strong>코드 받기</strong>에 6자리 코드를 넣으면 그 포인트가 내 해도에 마커로 추가되고 지도가 그 자리로 이동합니다.</p>
+<h3 id="마커-여러-개-지우기">마커 여러 개 지우기</h3>
+<ul><li><strong>마커삭제</strong>: 누르면 삭제 모드가 됩니다. 지울 마커를 누를 때마다 확인한 뒤 지웁니다. 끝나면 '삭제 종료'를 누릅니다.</li><li><strong>영역삭제</strong>: 지도 위에 손가락으로 네모를 그리면 확인을 거쳐 그 안의 마커를 한꺼번에 지웁니다. 이 상태에서는 지도가 움직이지 않으니, 끝나면 해도 메뉴의 '선택취소'를 누릅니다.</li></ul>
+<h2 id="4-항적-기록하기">4. 항적 기록하기</h2>
+<p>항적은 배가 지나온 길입니다. 물길은 '항적기록'을 켠 동안에만 기록합니다.</p>
+<ol><li>해도 오른쪽 아래의 <strong>항적기록</strong>을 누릅니다. 단추가 빨간 <strong>기록중</strong>으로 바뀝니다.</li><li>배가 움직이면 지나온 길이 지도에 파란 점선으로 그려집니다.</li></ol>
+<figure><img src="/img/guide/chart/chart-trail-recording.webp" alt="물길 항적 기록 중 화면" loading="lazy" decoding="async" width="720" height="643"><figcaption>기록 중에는 단추가 빨간 '기록중'으로 바뀌고 지나온 길이 점선으로 그려집니다</figcaption></figure>
+<p>기록 중에는 휴대폰 화면이 저절로 꺼지지 않게 유지됩니다. 화면을 직접 꺼도 알림창에 '물길 항적 기록 중'이 표시되며 기록이 이어집니다. 다만 최근 앱 목록에서 밀어서 앱을 완전히 종료하면 기록이 멈춥니다.</p>
+<h2 id="5-항적-저장하기">5. 항적 저장하기</h2>
+<p>기록을 마치려면 <strong>기록중</strong>을 누릅니다. '항적' 창이 열립니다.</p>
+<figure><img src="/img/guide/chart/chart-trail-save.webp" alt="물길 항적 저장 창" loading="lazy" decoding="async" width="720" height="647"><figcaption>항적 이름은 날짜·시각으로 자동으로 채워지고 바꿀 수 있습니다</figcaption></figure>
+<ul><li>이름 칸에는 '11월 8일(일) 18:45 항적'처럼 날짜와 시각이 자동으로 들어가 있고, 원하는 이름으로 바꿀 수 있습니다.</li><li><strong>저장하고 지우기</strong>: 항적을 저장하고 지도에서 기록 중이던 선을 지웁니다. 저장한 항적은 해도에 색깔 점선으로 다시 표시됩니다.</li><li><strong>저장 없이 지우기</strong>: 저장하지 않고 기록을 지웁니다.</li><li><strong>계속 기록하기</strong>: 창을 닫고 기록을 이어 갑니다.</li></ul>
+<p>항적 저장은 로그인해야 합니다. 로그인하지 않은 상태에서 '저장하고 지우기'를 누르면 로그인 안내가 뜨고, 기록한 항적은 지워지지 않고 그대로 남습니다.</p>
+<h2 id="6-항적관리에서-저장한-항적-보기">6. 항적관리에서 저장한 항적 보기</h2>
+<p>해도 왼쪽 위의 <strong>항적관리</strong>를 누르면 저장한 항적 목록이 나옵니다. 항적마다 이름, 날짜, 거리(km), 기록한 점의 수가 나오고, 필요 없는 항적은 <strong>삭제</strong>로 지웁니다. 저장한 항적은 해도에도 색깔 점선으로 표시됩니다.</p>
+<h2 id="로그인하면-달라지는-점">로그인하면 달라지는 점</h2>
+<ul><li><strong>마커</strong>: 로그인하지 않아도 찍을 수 있지만 그 휴대폰 안에만 저장되어 앱을 지우면 함께 사라집니다. 로그인하면 계정에 저장되어 앱을 다시 설치하거나 휴대폰을 바꿔도 다시 나타납니다.</li><li><strong>항적 저장, 포인트 공유, 현위치메모</strong>는 로그인해야 쓸 수 있습니다.</li></ul>
+<p>로그인은 앱 왼쪽 위 메뉴(줄 세 개 단추)에서 구글이나 카카오 계정으로 합니다.</p>
+<p>갤럭시 워치를 쓴다면 워치에서 저장한 위치도 휴대폰 해도에 마커로 표시됩니다. 자세한 내용은 <a href="/guide/galaxy-watch/">갤럭시 워치로 물때 보는 법</a>에 정리했습니다.</p>
+  </div>
+  
+  <section class="faq">
+    <h2 id="자주-묻는-질문">자주 묻는 질문</h2>
+    <div class="qa"><h3>로그인하지 않아도 포인트를 저장할 수 있나요?</h3><p>네. 마커는 로그인하지 않아도 찍히지만 그 휴대폰 안에만 저장되어 앱을 지우면 함께 사라집니다. 로그인하면 계정에 저장되어 앱을 다시 설치하거나 다른 휴대폰에서 같은 계정으로 로그인해도 다시 나타납니다. 항적 저장과 포인트 공유는 로그인해야 쓸 수 있습니다.</p></div><div class="qa"><h3>화면을 꺼도 항적이 기록되나요?</h3><p>네. 기록 중에는 알림창에 &#39;물길 항적 기록 중&#39;이 표시되고, 화면이 꺼져도 기록이 이어집니다. 다만 최근 앱 목록에서 밀어서 앱을 완전히 종료하면 기록이 멈춥니다.</p></div><div class="qa"><h3>저장한 포인트를 다른 사람에게 보낼 수 있나요?</h3><p>마커를 누르고 &#39;공유&#39;를 누르면 6자리 공유 코드와 링크가 만들어집니다. 받는 사람이 링크를 누르거나 해도 메뉴의 &#39;코드 받기&#39;에 코드를 넣으면 그 포인트가 받는 사람의 해도에 추가됩니다. 공유는 로그인 후 쓸 수 있습니다.</p></div><div class="qa"><h3>마커 종류는 어떤 기준으로 고르나요?</h3><p>좋음, 보통, 주의, 특별, 닻 다섯 가지 중에서 고릅니다. 정해진 규칙은 없으니 입질이 좋았던 곳은 좋음, 암초나 그물이 있는 곳은 주의, 닻을 내린 자리는 닻처럼 자기 기준으로 나눠 쓰면 됩니다.</p></div>
+  </section>
+  
+  
+  <aside class="cta">
+    <strong>물길 앱에서 직접 확인해 보세요</strong>
+    <p>전국 1,606개 지점의 물때·바다날씨·전자해도를 무료로 봅니다.</p>
+    <a class="btn" href="https://play.google.com/store/apps/details?id=com.mulnale.app" rel="noopener">구글 플레이에서 받기</a>
+  </aside>
+  
+  <section class="related">
+    <h2>같은 주제 다른 글</h2>
+    <ul><li><a href="/guide/galaxy-watch/">갤럭시 워치로 물때 보는 법 (물길 Wear OS 앱)</a></li><li><a href="/guide/home-widgets/">물길 홈 화면 위젯 14종 정리와 추가하는 법</a></li><li><a href="/guide/sea-weather-check/">출조 전 바다날씨 확인하는 법 (파고·풍속·돌풍·시정)</a></li></ul>
+  </section>
+  
+</article>
+
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-app">
+      <div>
+        <strong>물길</strong>
+        <p>바다를 알고 싶은 사람의 선택. 물때·바다날씨·전자해도를 한 앱에서.</p>
+      </div>
+      <a class="btn" href="https://play.google.com/store/apps/details?id=com.mulnale.app" rel="noopener">구글 플레이에서 받기</a>
+    </div>
+    <nav class="foot-nav" aria-label="바닥 메뉴">
+      <a href="/about/">물길 소개</a>
+      <a href="/faq/">자주 묻는 질문</a>
+      <a href="https://mulnale-api.fly.dev/privacy-policy" rel="noopener">개인정보처리방침</a>
+      <a href="https://mulnale-api.fly.dev/terms-of-service" rel="noopener">이용약관</a>
+      <a href="/rss.xml">RSS</a>
+    </nav>
+    <p class="small">문의 freesis7@gmail.com</p>
+    <p class="small">물길이 제공하는 물때·날씨·해도 정보는 참고용입니다. 출조 여부와 안전은 기상 특보와 관계 기관의 안내를 함께 확인해 판단해 주세요.</p>
+    <p class="small">&copy; 2026 물길</p>
+  </div>
+</footer>
+</body>
+</html>
