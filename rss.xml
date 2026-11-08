@@ -14,7 +14,73 @@
 <h2 id="물때를-낚시에-어떻게-쓰나요">물때를 낚시에 어떻게 쓰나요</h2>
 <p>물때는 그날 물살이 얼마나 셀지 가늠하는 기준입니다. 물살이 센 사리 무렵과 약한 조금 무렵은 포인트와 채비 무게를 고르는 방법이 달라집니다. 어느 물때가 좋은지는 어종과 장소, 낚시 방법에 따라 다르므로, 물때 번호만 보지 말고 <strong>만조·간조 시각</strong>과 <strong>물흐름</strong>을 함께 보세요.</p>
 <h2 id="물길에서-물때-보기">물길에서 물때 보기</h2>
-<p>물길은 전국 1,606개 낚시 지점마다 그 지점이 속한 지역의 방식으로 물때를 셉니다. 지점을 고르면 오늘 물때와 만조·간조 시각, 하루 조석 그래프가 함께 나옵니다. 보는 방법은 <a href="/guide/today-tide/">물길로 오늘 물때 보는 법</a>에 정리했습니다.</p>]]></content:encoded></item><item><title>출조 전 바다날씨 확인하는 법 (파고·풍속·돌풍·시정)</title><link>https://moolgil.com/guide/sea-weather-check/</link><guid isPermaLink="true">https://moolgil.com/guide/sea-weather-check/</guid><pubDate>Sun, 08 Nov 2026 09:00:00 +0900</pubDate><category>사용 설명서</category><description>물길 날씨 탭의 3시간 단위 해상 예보로 파고, 풍속, 돌풍, 시정, 강수확률을 확인하는 방법과 &#x27;환경&#x27; 표시(좋음·보통·주의)의 기준을 정리했습니다.</description><content:encoded><![CDATA[<h2 id="날씨-탭-열기">날씨 탭 열기</h2>
+<p>물길은 전국 1,606개 낚시 지점마다 그 지점이 속한 지역의 방식으로 물때를 셉니다. 지점을 고르면 오늘 물때와 만조·간조 시각, 하루 조석 그래프가 함께 나옵니다. 보는 방법은 <a href="/guide/today-tide/">물길로 오늘 물때 보는 법</a>에 정리했습니다.</p>]]></content:encoded></item><item><title>갤럭시 워치로 물때 보는 법 (물길 Wear OS 앱)</title><link>https://moolgil.com/guide/galaxy-watch/</link><guid isPermaLink="true">https://moolgil.com/guide/galaxy-watch/</guid><pubDate>Sun, 08 Nov 2026 09:00:00 +0900</pubDate><category>사용 설명서</category><description>물길 갤럭시 워치(Wear OS) 앱으로 손목에서 현재 물높이, 다음 고조·저조, 바다날씨를 보는 방법과 타일, 정보 표시(컴플리케이션), 시계 화면, 현위치 저장 기능을 정리했습니다.</description><content:encoded><![CDATA[<h2 id="무엇을-볼-수-있나요">무엇을 볼 수 있나요</h2>
+<figure><img src="/img/guide/watch/watch-main.webp" alt="물길 워치 앱 첫 화면" loading="lazy" decoding="async" width="450" height="450"><figcaption>워치 앱: 현재 물높이, 다음 고조·저조, 바다날씨</figcaption></figure>
+<ul><li><strong>현재 물높이</strong>와 지금 물이 오르는 중인지 내리는 중인지</li><li><strong>다음 고조·저조</strong> 시각과 높이</li><li><strong>바다날씨</strong>: 수온, 풍향, 풍속, 강수, 시야, 파고</li></ul>
+<figure><img src="/img/guide/watch/watch-graph.webp" alt="물길 워치 조석 그래프" loading="lazy" decoding="async" width="450" height="450"><figcaption>조석 그래프: 오늘부터 6일 뒤까지</figcaption></figure>
+<p>조석 그래프로 오늘부터 6일 뒤까지의 물때를 한눈에 볼 수 있습니다.</p>
+<h2 id="타일로-바로-보기">타일로 바로 보기</h2>
+<p>시계 화면에서 옆으로 넘기면 물때 타일이 나옵니다. 앱을 열지 않고도 현재 물때와 다음 고조·저조를 바로 확인합니다.</p>
+<figure><img src="/img/guide/watch/watch-tile.webp" alt="물길 워치 타일" loading="lazy" decoding="async" width="450" height="450"><figcaption>물때 타일</figcaption></figure>
+<h2 id="정보-표시컴플리케이션">정보 표시(컴플리케이션)</h2>
+<p>어떤 시계 화면에서도 물길 정보를 넣을 수 있습니다. 넣을 수 있는 항목은 다음과 같습니다.</p>
+<ul><li>지점명, 현재 물높이, 다음 고조·저조</li><li>조석 그래프, 현재 시각 표시</li><li>수온, 기온, 파고, 풍속</li><li>현위치 저장 버튼</li></ul>
+<h2 id="시계-화면-물길-타이드-플로우">시계 화면 '물길 타이드 플로우'</h2>
+<p>물때 곡선과 물높이, 바다날씨를 시계 화면 자체로 보여 줍니다. 워치 앱을 설치하면 시계 화면 목록에 자동으로 추가되며, Wear OS 6 이상에서 쓸 수 있습니다.</p>
+<h2 id="현재-위치-저장하기">현재 위치 저장하기</h2>
+<p>시계 화면의 위치·저장 버튼이나 워치 앱의 물때 숫자를 누르면 지금 위치가 저장됩니다. 저장한 위치는 휴대폰 물길 앱 해도에 마커로 표시되어, 배 위에서 휴대폰을 꺼내지 않고도 포인트를 남길 수 있습니다.</p>
+<h2 id="설치하는-법">설치하는 법</h2>
+<ol><li>워치에서 플레이 스토어를 열고 <strong>물길</strong>을 검색해 설치합니다.</li><li>또는 휴대폰 플레이 스토어의 물길 앱 화면에서 워치에도 설치를 고릅니다.</li><li>처음 열면 이용 동의 화면이 나옵니다. 동의하면 가까운 지점의 물때가 나옵니다.</li></ol>]]></content:encoded></item><item><title>물길 홈 화면 위젯 14종 정리와 추가하는 법</title><link>https://moolgil.com/guide/home-widgets/</link><guid isPermaLink="true">https://moolgil.com/guide/home-widgets/</guid><pubDate>Sun, 08 Nov 2026 09:00:00 +0900</pubDate><category>사용 설명서</category><description>물길 앱의 홈 화면 위젯 14종(물때 그래프, 오늘 물때, 주간 물때, 날씨 등)을 크기별로 정리하고, 홈 화면에 추가하는 방법과 지점·자료를 새로 받는 방법을 설명합니다.</description><content:encoded><![CDATA[<h2 id="위젯-추가하는-법">위젯 추가하는 법</h2>
+<ol><li>물길 앱 왼쪽 위 메뉴를 열고 <strong>위젯</strong>을 누릅니다.</li><li>위젯 목록에서 원하는 위젯의 <strong>[홈화면에 추가]</strong>를 누릅니다.</li><li>휴대폰이 묻는 창에서 추가를 누르면 홈 화면에 놓입니다.</li></ol>
+<p>바로 추가가 안 되는 휴대폰은 홈 화면 빈 곳을 길게 누르고 [위젯] → [물길]에서 원하는 위젯을 끌어다 놓으면 됩니다.</p>
+<aside class="note"><p>위젯은 앱에서 고른 지점의 물때와 날씨를 보여 줍니다. 지점을 바꿨다면 위젯 화면 아래의 '위젯 데이터 새로고침'을 눌러 주세요.</p></aside>
+<h2 id="물때-위젯">물때 위젯</h2>
+<h3 id="오늘-물때-4x1">오늘 물때 (4x1)</h3>
+<p>지역, 오늘 물때, 다음 만조·간조를 한 줄로 보여 줍니다.</p>
+<figure><img src="/img/guide/widget/today_tide.webp" alt="오늘 물때 위젯" loading="lazy" decoding="async" width="640" height="187"><figcaption>오늘 물때 위젯 (예시 지점: 장봉도)</figcaption></figure>
+<h3 id="물때-한줄-4x1">물때 한줄 (4x1)</h3>
+<p>오늘의 만조·간조 4회를 한 줄로 보여 줍니다.</p>
+<figure><img src="/img/guide/widget/tide_line.webp" alt="물때 한줄 위젯" loading="lazy" decoding="async" width="640" height="187"><figcaption>물때 한줄 위젯</figcaption></figure>
+<h3 id="물때-상세-4x2">물때 상세 (4x2)</h3>
+<p>만조·간조 4회의 시각과 높이, 앞 시각과의 높이 차이, 현재 물높이를 보여 줍니다.</p>
+<figure><img src="/img/guide/widget/tide_board.webp" alt="물때 상세 위젯" loading="lazy" decoding="async" width="640" height="375"><figcaption>물때 상세 위젯</figcaption></figure>
+<h3 id="물때-그래프-4x4">물때 그래프 (4x4)</h3>
+<p>하루 물높이 곡선 위에 만조·간조 시각과 높이, 날씨, 달 모양, 일출·일몰, 6일 예보를 함께 보여 줍니다.</p>
+<figure><img src="/img/guide/widget/tide_graph.webp" alt="물때 그래프 위젯" loading="lazy" decoding="async" width="640" height="753"><figcaption>물때 그래프 위젯</figcaption></figure>
+<h3 id="주간-물때-4x5">주간 물때 (4x5)</h3>
+<p>7일 동안의 물때와 만조·간조를 한눈에 봅니다.</p>
+<figure><img src="/img/guide/widget/weekly_tide.webp" alt="주간 물때 위젯" loading="lazy" decoding="async" width="640" height="941"><figcaption>주간 물때 위젯</figcaption></figure>
+<h3 id="물때-주간-예보-4x3">물때 주간 예보 (4x3)</h3>
+<p>일별 예보와 만조·간조 높이, 높이 차이를 보여 주고 앱 바로가기가 있습니다.</p>
+<figure><img src="/img/guide/widget/daily_forecast.webp" alt="물때 주간 예보 위젯" loading="lazy" decoding="async" width="640" height="564"><figcaption>물때 주간 예보 위젯</figcaption></figure>
+<h2 id="날씨-위젯">날씨 위젯</h2>
+<h3 id="시계-날씨-2x1">시계 + 날씨 (2x1)</h3>
+<p>현재 시각과 기온을 보여 줍니다.</p>
+<figure><img src="/img/guide/widget/clock_weather.webp" alt="시계 날씨 위젯" loading="lazy" decoding="async" width="460" height="269"><figcaption>시계 + 날씨 위젯</figcaption></figure>
+<h3 id="현재-날씨-2x2">현재 날씨 (2x2)</h3>
+<p>기온과 날씨, 바람과 파도를 보여 줍니다.</p>
+<figure><img src="/img/guide/widget/current_weather.webp" alt="현재 날씨 위젯" loading="lazy" decoding="async" width="460" height="541"><figcaption>현재 날씨 위젯</figcaption></figure>
+<h3 id="날씨-한줄-4x1">날씨 한줄 (4x1)</h3>
+<p>기온, 바람, 파도, 강수를 한 줄로 보여 줍니다.</p>
+<figure><img src="/img/guide/widget/weather_line.webp" alt="날씨 한줄 위젯" loading="lazy" decoding="async" width="640" height="186"><figcaption>날씨 한줄 위젯</figcaption></figure>
+<h3 id="날씨-상세-4x2">날씨 상세 (4x2)</h3>
+<p>바람, 파도, 수온, 강수를 보여 줍니다.</p>
+<figure><img src="/img/guide/widget/weather_board.webp" alt="날씨 상세 위젯" loading="lazy" decoding="async" width="640" height="375"><figcaption>날씨 상세 위젯</figcaption></figure>
+<h3 id="시간별-예보-4x3">시간별 예보 (4x3)</h3>
+<p>시각별 날씨와 기온, 만조·간조를 보여 줍니다.</p>
+<figure><img src="/img/guide/widget/hourly_forecast.webp" alt="시간별 예보 위젯" loading="lazy" decoding="async" width="640" height="565"><figcaption>시간별 예보 위젯</figcaption></figure>
+<h2 id="물때-날씨-종합-위젯">물때 + 날씨 종합 위젯</h2>
+<h3 id="물때-날씨-종합-4x2">물때 + 날씨 종합 (4x2)</h3>
+<p>만조·간조와 기온, 바람, 파도를 함께 봅니다.</p>
+<figure><img src="/img/guide/widget/full_combo.webp" alt="물때 날씨 종합 위젯" loading="lazy" decoding="async" width="640" height="375"><figcaption>물때 + 날씨 종합 위젯</figcaption></figure>
+<h3 id="물때-예보-종합-4x4">물때 예보 종합 (4x4)</h3>
+<p>시간별·일별 예보와 만조·간조, 바로가기를 한 위젯에 담았습니다.</p>
+<figure><img src="/img/guide/widget/all_in_one.webp" alt="물때 예보 종합 위젯" loading="lazy" decoding="async" width="640" height="755"><figcaption>물때 예보 종합 위젯</figcaption></figure>
+<h3 id="물길-종합정보-4x5">물길 종합정보 (4x5)</h3>
+<p>물때 그래프, 3시간 단위 날씨, 일별 예보를 모두 담은 가장 큰 위젯입니다.</p>
+<figure><img src="/img/guide/widget/total_info.webp" alt="물길 종합정보 위젯" loading="lazy" decoding="async" width="640" height="944"><figcaption>물길 종합정보 위젯</figcaption></figure>
+<h2 id="어떤-위젯을-고를까요">어떤 위젯을 고를까요</h2>
+<div class="table-wrap"><table><thead><tr><th>쓰임</th><th>추천 위젯</th></tr></thead><tbody><tr><td>홈 화면 공간이 좁을 때</td><td>오늘 물때 (4x1), 시계 + 날씨 (2x1)</td></tr><tr><td>오늘 만조·간조를 자세히</td><td>물때 상세 (4x2), 물때 그래프 (4x4)</td></tr><tr><td>이번 주 출조 계획</td><td>주간 물때 (4x5), 물때 주간 예보 (4x3)</td></tr><tr><td>물때와 날씨를 한 번에</td><td>물때 + 날씨 종합 (4x2), 물길 종합정보 (4x5)</td></tr></tbody></table></div>]]></content:encoded></item><item><title>출조 전 바다날씨 확인하는 법 (파고·풍속·돌풍·시정)</title><link>https://moolgil.com/guide/sea-weather-check/</link><guid isPermaLink="true">https://moolgil.com/guide/sea-weather-check/</guid><pubDate>Sun, 08 Nov 2026 09:00:00 +0900</pubDate><category>사용 설명서</category><description>물길 날씨 탭의 3시간 단위 해상 예보로 파고, 풍속, 돌풍, 시정, 강수확률을 확인하는 방법과 &#x27;환경&#x27; 표시(좋음·보통·주의)의 기준을 정리했습니다.</description><content:encoded><![CDATA[<h2 id="날씨-탭-열기">날씨 탭 열기</h2>
 <p>위쪽의 '날씨' 탭을 누르면 고른 지점의 해상 예보가 나옵니다.</p>
 <figure><img src="/img/guide/weather-table.webp" alt="물길 날씨 탭" loading="lazy" decoding="async" width="720" height="1258"><figcaption>날씨 탭의 3시간 단위 해상 예보 (예시 지점: 통영)</figcaption></figure>
 <ul><li><strong>맨 위</strong>: 지점 이름과 지금의 파고·풍속·시정</li><li><strong>3시간 단위 해상 예보</strong>: 3시간 간격으로 7일치를 보여 줍니다. 표를 오른쪽으로 밀면 다음 날로 이어집니다.</li></ul>
