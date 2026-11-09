@@ -225,5 +225,10 @@
     <p class="small">&copy; 2026 물길</p>
   </div>
 </footer>
+<!-- 유입 출처 이어 붙이기(2026-11-09): 인스타·스레드 등에서 utm_ 붙은 주소로 들어오면, 이 페이지의 플레이 스토어 링크에 같은 값을 referrer로 넣어
+     앱 첫 실행 출처(파이어베이스)까지 이어지게 한다. 외부 스크립트·쿠키 없음, 같은 방문 안에서만 기억(sessionStorage). -->
+<script>
+(function(){try{var q=new URLSearchParams(location.search);var u={};['utm_source','utm_medium','utm_campaign'].forEach(function(k){var v=q.get(k);if(v)u[k]=v;});var key='moolgil_utm';if(Object.keys(u).length){sessionStorage.setItem(key,JSON.stringify(u));}else{var s=sessionStorage.getItem(key);if(s)u=JSON.parse(s);}if(!Object.keys(u).length)return;var ref=Object.keys(u).map(function(k){return k+'='+u[k];}).join('&');document.querySelectorAll('a[href^="https://play.google.com/store/apps/details?id=com.mulnale.app"]').forEach(function(a){if(a.href.indexOf('referrer=')<0)a.href+='&referrer='+encodeURIComponent(ref);});}catch(e){}})();
+</script>
 </body>
 </html>
