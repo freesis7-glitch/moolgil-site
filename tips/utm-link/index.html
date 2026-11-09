@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>손님이 어디서 왔는지 보는 법, 링크에 꼬리표(UTM) 달기 | 물길</title>
+<meta name="description" content="인스타·스레드·블로그에 같은 링크를 걸면 어느 곳에서 손님이 왔는지 알 수 없습니다. 링크 끝에 꼬리표(UTM)를 붙여 채널별 유입을 나눠 보는 방법을, 물길이 실제로 붙인 규칙과 함께 정리했습니다.">
+<link rel="canonical" href="https://moolgil.com/tips/utm-link/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="물길">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="손님이 어디서 왔는지 보는 법, 링크에 꼬리표(UTM) 달기">
+<meta property="og:description" content="인스타·스레드·블로그에 같은 링크를 걸면 어느 곳에서 손님이 왔는지 알 수 없습니다. 링크 끝에 꼬리표(UTM)를 붙여 채널별 유입을 나눠 보는 방법을, 물길이 실제로 붙인 규칙과 함께 정리했습니다.">
+<meta property="og:url" content="https://moolgil.com/tips/utm-link/">
+<meta property="og:image" content="https://moolgil.com/og/tips-utm-link-92da099d52.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:published_time" content="2026-11-10">
+<meta property="article:modified_time" content="2026-11-10">
+<meta name="theme-color" content="#061321">
+<meta name="naver-site-verification" content="fc603bb5ecd979aaef17647a697d5b415578c2f9">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="물길" href="https://moolgil.com/rss.xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="/css/site.css">
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://moolgil.com/#org",
+   "name": "물길",
+   "url": "https://moolgil.com/",
+   "logo": "https://moolgil.com/img/icon-512.png",
+   "email": "freesis7@gmail.com",
+   "sameAs": [
+    "https://play.google.com/store/apps/details?id=com.mulnale.app"
+   ]
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://moolgil.com/#site",
+   "name": "물길",
+   "url": "https://moolgil.com/",
+   "inLanguage": "ko-KR",
+   "publisher": {
+    "@id": "https://moolgil.com/#org"
+   }
+  },
+  {
+   "@type": "Article",
+   "headline": "손님이 어디서 왔는지 보는 법, 링크에 꼬리표(UTM) 달기",
+   "description": "인스타·스레드·블로그에 같은 링크를 걸면 어느 곳에서 손님이 왔는지 알 수 없습니다. 링크 끝에 꼬리표(UTM)를 붙여 채널별 유입을 나눠 보는 방법을, 물길이 실제로 붙인 규칙과 함께 정리했습니다.",
+   "image": "https://moolgil.com/og/tips-utm-link-92da099d52.jpg",
+   "datePublished": "2026-11-10",
+   "dateModified": "2026-11-10",
+   "inLanguage": "ko-KR",
+   "author": {
+    "@id": "https://moolgil.com/#org"
+   },
+   "publisher": {
+    "@id": "https://moolgil.com/#org"
+   },
+   "mainEntityOfPage": "https://moolgil.com/tips/utm-link/"
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "홈",
+     "item": "https://moolgil.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "사장님 홍보 팁",
+     "item": "https://moolgil.com/tips/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "손님이 어디서 왔는지 보는 법, 링크에 꼬리표(UTM) 달기",
+     "item": "https://moolgil.com/tips/utm-link/"
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "꼬리표를 붙이면 링크가 안 열리거나 느려지지 않나요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "아닙니다. 꼬리표는 주소 뒤에 붙는 글자일 뿐이라 페이지는 똑같이 열립니다. 다만 내 홈페이지에 구글 애널리틱스 같은 분석 도구가 있어야 꼬리표가 집계됩니다."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "채널 이름을 한글로 써도 되나요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "쓸 수는 있지만 영어 소문자를 권합니다. 꼬리표 값은 대소문자를 구분해서 instagram과 Instagram이 따로 집계되고, 한글은 주소에서 긴 기호로 바뀌어 알아보기 어렵습니다."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "홈페이지가 없는 가게도 쓸 수 있나요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "꼬리표는 링크를 받는 쪽에서 집계해야 해서, 분석 도구가 없는 곳으로 가는 링크에는 효과가 없습니다. 이럴 때는 채널마다 다른 쿠폰 문구를 정해 두고 계산할 때 묻는 방식이 더 현실적입니다."
+     }
+    }
+   ]
+  }
+ ]
+}</script>
+<!-- 방문 집계: 구글 애널리틱스 4 웹 스트림(2026-11-09, 앱과 같은 속성 538601034). 광고 개인화 신호는 끈다. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VZPWL6JVM2"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('set','allow_google_signals',false);gtag('config','G-VZPWL6JVM2',{anonymize_ip:true});</script>
+</head>
+<body>
+<a class="skip" href="#main">본문 바로가기</a>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="/"><img src="/img/logo-white.png" alt="물길" width="169" height="96"></a>
+    <nav class="nav" aria-label="주 메뉴">
+      <a href="/about/">물길 소개</a><a href="/guide/">사용 설명서</a><a href="/fishing/">바다낚시 길잡이</a><a href="/faq/">자주 묻는 질문</a><a href="/news/">소식</a><a href="/tips/" aria-current="page">사장님 홍보 팁</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<article class="wrap article">
+  <nav class="crumbs" aria-label="현재 위치"><a href="/">홈</a> / <a href="/tips/">사장님 홍보 팁</a></nav>
+  <h1>손님이 어디서 왔는지 보는 법, 링크에 꼬리표(UTM) 달기</h1>
+  <p class="meta">2026년 11월 10일 작성 · 읽는 데 4분</p>
+  
+  <div class="answer"><strong>한 줄 답</strong><p>링크 끝에 utm_source(어디서)·utm_medium(어떤 방식)·utm_campaign(어떤 행사) 세 칸을 붙이면, 구글 애널리틱스에서 손님이 인스타에서 왔는지 블로그에서 왔는지 나눠 볼 수 있습니다. 돈이 들지 않고 한 번 규칙을 정하면 계속 씁니다.</p></div>
+  
+  
+  <nav class="toc" aria-label="차례"><strong>차례</strong><ul><li><a href="#왜-꼬리표가-필요한가요">왜 꼬리표가 필요한가요</a></li><li><a href="#꼬리표는-이렇게-생겼습니다">꼬리표는 이렇게 생겼습니다</a></li><li><a href="#물길은-이렇게-붙였습니다">물길은 이렇게 붙였습니다</a></li><li><a href="#따라-하기">따라 하기</a></li><li><a href="#앱이-있다면">앱이 있다면</a></li><li><a href="#조심할-것">조심할 것</a></li></ul></nav>
+  
+  <div class="prose">
+<h2 id="왜-꼬리표가-필요한가요">왜 꼬리표가 필요한가요</h2>
+<p>가게 소식을 인스타, 스레드, 블로그, 카카오톡 채널에 함께 올리면 손님은 늘어도 <strong>어디서 온 손님인지</strong>는 알기 어렵습니다. 같은 링크를 여러 곳에 걸면 분석 도구에는 그냥 "인스타그램 앱" 또는 "직접 방문"처럼 뭉뚱그려 찍히기 때문입니다.</p>
+<p>어느 채널이 손님을 데려오는지 알아야 시간을 어디에 쓸지 정할 수 있습니다. 그래서 링크마다 "이 링크는 인스타 프로필에서 눌렀다"는 표시를 붙여 둡니다. 이 표시를 <strong>UTM 꼬리표</strong>라고 부릅니다.</p>
+<h2 id="꼬리표는-이렇게-생겼습니다">꼬리표는 이렇게 생겼습니다</h2>
+<p>링크 주소 끝에 <code>?</code>를 붙이고 세 칸을 <code>&amp;</code>로 이어 씁니다.</p>
+<aside class="note"><p><code>https://내가게.com/?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=shop_202611</code></p></aside>
+<div class="table-wrap"><table><thead><tr><th>칸</th><th>뜻</th><th>예</th></tr></thead><tbody><tr><td>utm_source</td><td>어디서 왔나(채널)</td><td>instagram, threads, blog, kakao</td></tr><tr><td>utm_medium</td><td>어떤 방식으로 왔나</td><td>social(SNS), email, qr</td></tr><tr><td>utm_campaign</td><td>어떤 행사·기간인가</td><td>shop_202611(11월), opening_sale</td></tr></tbody></table></div>
+<p>구글 애널리틱스 도움말은 이 세 칸을 늘 함께 쓰라고 안내합니다. 글마다 따로 보고 싶으면 <code>utm_content</code>를 하나 더 붙일 수 있습니다. 값은 <strong>대소문자를 구분</strong>하므로 한 번 정한 철자를 계속 그대로 씁니다.</p>
+<h2 id="물길은-이렇게-붙였습니다">물길은 이렇게 붙였습니다</h2>
+<p>물길(바다낚시 앱)은 2026년 11월부터 아래 규칙으로 링크를 나누고 있습니다.</p>
+<div class="table-wrap"><table><thead><tr><th>어디에 건 링크</th><th>꼬리표</th></tr></thead><tbody><tr><td>인스타 프로필</td><td>utm_source=instagram</td></tr><tr><td>스레드 글</td><td>utm_source=threads</td></tr><tr><td>네이버 블로그 글</td><td>utm_source=blog</td></tr><tr><td>공통</td><td>utm_medium=social, utm_campaign=mulgil_202611(달마다 바꿈), 글 구분은 utm_content</td></tr></tbody></table></div>
+<p>몇 가지 요령도 함께 썼습니다.</p>
+<ul><li><strong>인스타는 프로필 링크 하나가 사실상 전부입니다.</strong> 게시물 본문에 적은 주소는 눌리지 않아서 "링크는 프로필에"라고 안내합니다. 그래서 프로필 링크에 꼬리표를 붙였습니다.</li><li><strong>긴 주소가 보기 싫으면 짧은 주소를 하나 만듭니다.</strong> 물길은 프로필에 <code>moolgil.com/ig</code>만 적고, 그 주소가 꼬리표 붙은 주소로 넘기게 했습니다. 이렇게 하면 달이 바뀌어도 프로필을 고칠 필요가 없습니다.</li><li><strong>캠페인은 달 단위로 묶었습니다.</strong> 행사가 많지 않은 작은 가게는 "이번 달에 한 일"로 묶어 보는 편이 비교하기 쉽습니다.</li></ul>
+<h2 id="따라-하기">따라 하기</h2>
+<ol><li><strong>채널 이름을 정합니다.</strong> 영어 소문자로 instagram, threads, blog, kakao처럼 정하고 메모해 둡니다.</li><li><strong>링크를 만듭니다.</strong> 직접 써도 되고, 구글의 <a href="https://ga-dev-tools.google/campaign-url-builder/" rel="noopener">Campaign URL Builder</a>에 주소와 세 칸을 넣으면 완성된 링크를 만들어 줍니다.</li><li><strong>채널마다 그 링크를 겁니다.</strong> 인스타는 프로필 링크, 스레드·블로그는 글 안 링크, 카카오톡 채널은 소식 글의 버튼 링크에 넣습니다.</li><li><strong>며칠 뒤 확인합니다.</strong> 구글 애널리틱스에서 <strong>보고서 → 획득 → 트래픽 획득</strong>을 열고 '세션 소스/매체'나 '세션 캠페인'으로 보면 채널별 방문 수가 나뉘어 보입니다.</li></ol>
+<h2 id="앱이-있다면">앱이 있다면</h2>
+<p>플레이 스토어 링크도 같은 방식으로 나눌 수 있습니다. 스토어 주소 뒤 <code>referrer</code> 칸에 꼬리표를 넣습니다.</p>
+<aside class="note"><p><code>https://play.google.com/store/apps/details?id=앱패키지&amp;referrer=utm_source%3Dinstagram%26utm_medium%3Dsocial%26utm_campaign%3Dshop_202611</code></p></aside>
+<p>앱에 구글 애널리틱스(파이어베이스)가 들어 있으면, 그 링크로 설치한 사람이 앱을 처음 열 때(first_open) 출처가 기록됩니다. 구글 안내에 따르면 설치 기여 기간은 30일입니다.</p>
+<h2 id="조심할-것">조심할 것</h2>
+<ul><li><strong>꼬리표에 개인정보를 넣지 않습니다.</strong> 이름, 전화번호, 이메일을 utm 값에 쓰면 안 됩니다.</li><li><strong>철자를 바꾸지 않습니다.</strong> 지난달에 kakao라고 썼다면 이번 달에도 kakao입니다. Kakao, kakaotalk가 섞이면 따로 집계됩니다.</li><li><strong>꼬리표 링크를 다른 채널에 옮겨 붙이지 않습니다.</strong> 인스타용 링크를 블로그에 붙이면 블로그 손님이 인스타 손님으로 잡힙니다.</li><li><strong>분석 도구가 있는 곳으로 가는 링크에만 효과가 있습니다.</strong> 내 홈페이지나 앱처럼 내가 집계할 수 있는 곳으로 가는 링크에 붙이세요.</li></ul>
+<p>꼬리표는 한 번 규칙을 정해 두면 돈 들이지 않고 계속 쓸 수 있습니다. 물길은 이 규칙으로 모은 숫자를 월말에 정리해 공개할 예정입니다.</p>
+  </div>
+  
+  <section class="faq">
+    <h2 id="자주-묻는-질문">자주 묻는 질문</h2>
+    <div class="qa"><h3>꼬리표를 붙이면 링크가 안 열리거나 느려지지 않나요?</h3><p>아닙니다. 꼬리표는 주소 뒤에 붙는 글자일 뿐이라 페이지는 똑같이 열립니다. 다만 내 홈페이지에 구글 애널리틱스 같은 분석 도구가 있어야 꼬리표가 집계됩니다.</p></div><div class="qa"><h3>채널 이름을 한글로 써도 되나요?</h3><p>쓸 수는 있지만 영어 소문자를 권합니다. 꼬리표 값은 대소문자를 구분해서 instagram과 Instagram이 따로 집계되고, 한글은 주소에서 긴 기호로 바뀌어 알아보기 어렵습니다.</p></div><div class="qa"><h3>홈페이지가 없는 가게도 쓸 수 있나요?</h3><p>꼬리표는 링크를 받는 쪽에서 집계해야 해서, 분석 도구가 없는 곳으로 가는 링크에는 효과가 없습니다. 이럴 때는 채널마다 다른 쿠폰 문구를 정해 두고 계산할 때 묻는 방식이 더 현실적입니다.</p></div>
+  </section>
+  
+  
+  <section class="sources"><h2 id="참고한-자료">참고한 자료</h2><ul><li><a href="https://support.google.com/analytics/answer/10917952" rel="noopener">Google 애널리틱스 고객센터 — URL 빌더: 맞춤 URL로 캠페인 데이터 수집</a></li><li><a href="https://support.google.com/analytics/answer/10311900" rel="noopener">Google 애널리틱스 고객센터 — 앱 주요 이벤트의 기여 방식</a></li><li><a href="https://ga-dev-tools.google/campaign-url-builder/" rel="noopener">Google Campaign URL Builder</a></li></ul></section>
+  
+  <aside class="cta">
+    <strong>물길 앱에서 직접 확인해 보세요</strong>
+    <p>전국 1,607개 지점의 물때·바다날씨·전자해도를 무료로 봅니다.</p>
+    <a class="btn" href="https://play.google.com/store/apps/details?id=com.mulnale.app" rel="noopener">구글 플레이에서 받기</a>
+  </aside>
+  
+</article>
+
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-app">
+      <div>
+        <strong>물길</strong>
+        <p>바다를 알고 싶은 사람의 선택. 물때·바다날씨·전자해도를 한 앱에서.</p>
+      </div>
+      <a class="btn" href="https://play.google.com/store/apps/details?id=com.mulnale.app" rel="noopener">구글 플레이에서 받기</a>
+    </div>
+    <nav class="foot-nav" aria-label="바닥 메뉴">
+      <a href="/about/">물길 소개</a>
+      <a href="/faq/">자주 묻는 질문</a>
+      <a href="https://moolgil.com/privacy/" rel="noopener">개인정보처리방침</a>
+      <a href="https://mulnale-api.fly.dev/terms-of-service" rel="noopener">이용약관</a>
+      <a href="/rss.xml">RSS</a>
+    </nav>
+    <p class="small">문의 freesis7@gmail.com</p>
+    <p class="small">이 사이트는 방문 통계를 위해 구글 애널리틱스를 사용합니다(개인을 식별하지 않으며 광고 개인화 신호는 끕니다).</p>
+    <p class="small">물길이 제공하는 물때·날씨·해도 정보는 참고용입니다. 출조 여부와 안전은 기상 특보와 관계 기관의 안내를 함께 확인해 판단해 주세요.</p>
+    <p class="small">&copy; 2026 물길</p>
+  </div>
+</footer>
+<!-- 유입 출처 이어 붙이기(2026-11-09): 인스타·스레드 등에서 utm_ 붙은 주소로 들어오면, 이 페이지의 플레이 스토어 링크에 같은 값을 referrer로 넣어
+     앱 첫 실행 출처(파이어베이스)까지 이어지게 한다. 외부 스크립트·쿠키 없음, 같은 방문 안에서만 기억(sessionStorage). -->
+<script>
+(function(){try{var q=new URLSearchParams(location.search);var u={};['utm_source','utm_medium','utm_campaign'].forEach(function(k){var v=q.get(k);if(v)u[k]=v;});var key='moolgil_utm';if(Object.keys(u).length){sessionStorage.setItem(key,JSON.stringify(u));}else{var s=sessionStorage.getItem(key);if(s)u=JSON.parse(s);}if(!Object.keys(u).length)return;var ref=Object.keys(u).map(function(k){return k+'='+u[k];}).join('&');document.querySelectorAll('a[href^="https://play.google.com/store/apps/details?id=com.mulnale.app"]').forEach(function(a){if(a.href.indexOf('referrer=')<0)a.href+='&referrer='+encodeURIComponent(ref);});}catch(e){}})();
+</script>
+</body>
+</html>
