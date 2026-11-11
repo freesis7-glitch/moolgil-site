@@ -105,6 +105,14 @@ td:first-child, th:first-child { min-width: 5.6em; }   /* 좁은 화면에서 '�
 .cta { margin: 36px 0 8px; background: var(--navy); color: #e6eef6; border-radius: var(--radius); padding: 22px; }
 .cta strong { font-size: 19px; display: block; }
 .cta p { margin: 6px 0 14px; color: #c3d3e2; }
+/* 광고 칸(2026-11-11): 광고 표시와 상표 색 */
+.ad-badge { display: inline-block; margin: 10px 0 0; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600; background: #fff4d6; color: #7a5200; border: 1px solid #f0d58c; }
+.cta-brand { background: var(--brand-bg); color: #262824; border: 1px solid #ded6c6; }
+.cta-brand strong { color: var(--brand); }
+.cta-brand p { color: #55574f; }
+.cta-brand .btn { background: var(--brand); color: #fff; }
+.brand-card { border-left: 4px solid var(--brand); }
+.brand-card .card-sec { color: var(--brand); }
 .related { margin-top: 28px; }
 .related h2 { font-size: 19px; }
 
